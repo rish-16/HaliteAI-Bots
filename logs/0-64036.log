@@ -1,0 +1,102 @@
+[
+ {
+  "Error": {
+   "Message": "ERRORED! Got Exception (if any): ERROR: Bot #0: Received invalid character '    if planet in planned_planets:i'. (at character 5.)\nInput received from bot:\n    if planet in planned_planets:\n    ^; Response received (if any):     if planet in planned_planets:                                ^TabError: inconsistent use of tabs and spaces in indentation",
+   "Turn": 1
+  },
+  "Frames": [
+   {
+    "Time": 78,
+    "Turn": 0
+   },
+   {
+    "Time": 0
+   }
+  ],
+  "PlayerID": 0,
+  "PlayerName": "  File \"MyBot.py\", line 52"
+ },
+ {
+  "Error": {},
+  "Frames": [
+   {
+    "Time": 92,
+    "Turn": 0
+   },
+   {
+    "Commands": [
+     {
+      "angle": 282,
+      "magnitude": 3,
+      "owner": 1,
+      "queue_number": 0,
+      "shipId": 5,
+      "type": "thrust"
+     },
+     {
+      "angle": 284,
+      "magnitude": 3,
+      "owner": 1,
+      "queue_number": 0,
+      "shipId": 4,
+      "type": "thrust"
+     },
+     {
+      "angle": 283,
+      "magnitude": 3,
+      "owner": 1,
+      "queue_number": 0,
+      "shipId": 3,
+      "type": "thrust"
+     }
+    ],
+    "Planets": null,
+    "Ships": [
+     {
+      "cooldown": 0,
+      "docking": {
+       "status": "undocked"
+      },
+      "health": 255,
+      "id": 5,
+      "owner": 1,
+      "vel_x": 0.0,
+      "vel_y": 0.0,
+      "x": 120.62373507245327,
+      "y": 120.06555719779858
+     },
+     {
+      "cooldown": 0,
+      "docking": {
+       "status": "undocked"
+      },
+      "health": 255,
+      "id": 4,
+      "owner": 1,
+      "vel_x": 0.0,
+      "vel_y": 0.0,
+      "x": 120.72576568679901,
+      "y": 114.08911282117201
+     },
+     {
+      "cooldown": 0,
+      "docking": {
+       "status": "undocked"
+      },
+      "health": 255,
+      "id": 3,
+      "owner": 1,
+      "vel_x": 0.0,
+      "vel_y": 0.0,
+      "x": 120.6748531630316,
+      "y": 117.0768898056443
+     }
+    ],
+    "Time": 0,
+    "Turn": 1
+   }
+  ],
+  "PlayerID": 1,
+  "PlayerName": "Settler-v1"
+ }
+]
