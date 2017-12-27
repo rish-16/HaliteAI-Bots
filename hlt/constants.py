@@ -1,5 +1,5 @@
 #: Max number of units of distance a ship can travel in a turn
-MAX_SPEED = 10
+MAX_SPEED = 14
 #: Radius of a ship
 SHIP_RADIUS = 0.5
 #: Starting health of ship, also its max
@@ -11,7 +11,7 @@ WEAPON_COOLDOWN = 1
 #: Weapon damage radius
 WEAPON_RADIUS = 5.0
 #: Weapon damage
-WEAPON_DAMAGE = 64
+WEAPON_DAMAGE = 200
 #: Radius in which explosions affect other entities
 EXPLOSION_RADIUS = 10.0
 #: Distance from the edge of the planet at which ships can try to dock

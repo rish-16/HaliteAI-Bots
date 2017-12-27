@@ -4,7 +4,7 @@ from . import collision, entity
 class Map:
     """
     Map which houses the current game information/metadata.
-    
+
     :ivar my_id: Current player id associated with the map
     :ivar width: Map width
     :ivar height: Map height

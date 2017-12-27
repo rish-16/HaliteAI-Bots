@@ -1,7 +1,7 @@
 import hlt
 import logging
 
-game = hlt.Game("Settler V3")
+game = hlt.Game("Settler V2")
 logging.info("Starting my Settler bot!")
 
 planned_planets = []
@@ -26,7 +26,7 @@ while True:
 
                 else:
                     navigate_command = ship.navigate(
-						ship.closest_point_to(planet),
+                        ship.closest_point_to(planet),
                         game_map,
                         speed=int(hlt.constants.MAX_SPEED/2),
                         ignore_ships=False)

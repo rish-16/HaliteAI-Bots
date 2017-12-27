@@ -206,7 +206,7 @@ class Planet(Entity):
 class Ship(Entity):
     """
     A ship in the game.
-    
+
     :ivar id: The ship ID.
     :ivar x: The ship x-coordinate.
     :ivar y: The ship y-coordinate.
