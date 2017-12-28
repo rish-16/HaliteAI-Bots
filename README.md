@@ -45,4 +45,4 @@ Open the directory with the **MyBot.py** file and the **htl** directory. Compres
 
 Drag and drop the compressed folder into the designated area that says **"SUBMIT A BOT"**.
 
-After uploading, the bot should have played a few starter game.
+After uploading, the bot should have played a few starter games.
